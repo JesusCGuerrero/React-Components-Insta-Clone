@@ -5,6 +5,12 @@ const dummyData = [
         imageUrl: 'https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1876&q=80',
         likes: 400,
         timestamp: "July 17th 2017, 12:42:40 pm",
+        submitComment: [
+            {
+                username: "jesus",
+                text: "Hello"
+            }
+        ],
         comments: [
             {
                 username: "philzcoffee",

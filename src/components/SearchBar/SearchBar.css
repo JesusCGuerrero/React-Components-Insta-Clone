@@ -9,13 +9,19 @@
 .search-form {
   width: 150px;
   font-size: 14px;
+  
 }
 .search-form input {
   text-align: center;
   color: #262626;
+  background-color: #fcfcfc;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 3px;
 }
 .image-wrapper {
   height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .logo-image {
@@ -28,4 +34,13 @@
 
 .social {
   width: 50px;
+}
+
+.igLogo {
+  border-right: 1px solid rgb(133, 131, 131);
+  padding-right: 10px;
+}
+
+.igTextLogo {
+  padding-left: 10px;
 }
